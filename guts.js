@@ -80,7 +80,8 @@ function getQuote() {
   );
 }
 
-$ (document).ready(function() {
+$(document).ready(function() {
+    console.log('Ready!')
   getQuotes().then(() => {
     getQuote();
   });
