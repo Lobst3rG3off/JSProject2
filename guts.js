@@ -81,7 +81,9 @@ function getQuote() {
 }
 
 $(document).ready(function() {
-    console.log('Ready!')
+    console.log('Ready!');
+
+    
   getQuotes().then(() => {
     getQuote();
   });
